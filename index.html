@@ -16,38 +16,163 @@
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""> </a>
+    <div class="container-fluid ">
+      <div><a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo start up"> </a></div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon" style="color: #8c52ff;"></span>
+        <div class="navbar-toggler-icon"></div>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse " id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto me-5">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#accueil">Accueil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#apropos">A propos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#services">Services</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown link
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <h1>Hello, world!</h1>
+  <section class="hero">
+    <div
+      class="container d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center min-vh-100">
+      <div class="row">
+        <div class="col d-flex flex-column align-items-center justify-content-center">
+          <h1 class="text-white p-4 rounded">Apprenez à utiliser l'IA de
+            manière responsable et éthique. Greent IA vous accompagne pour développer des pratiques durables et
+            conscientes.</h1>
+          <a href="#contact" class="btn btn-success d-block ">En savoir plus</a>
+        </div>
+      </div>
+  </section>
+  <section class="apropos" id="apropos">
+    <div class="container ">
+      <div class="row">
+        <div class="col">
+          <h2 class="text-center text-success p-4 rounded mt-3">A propos de nous</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12">
+          <img class="img-fluid" src="img/apropos.webp" alt="image ia green">
+        </div>
+        <div class="col-lg-8 col-md-6 col-12">
+          <p class="mt-4">Greent IA est une start-up dédiée à l'éducation et à la sensibilisation à
+            l'intelligence artificielle (IA) responsable. Nous croyons que l'IA peut être un outil puissant pour
+            améliorer notre vie quotidienne, mais il est essentiel de l'utiliser de manière éthique et durable.
+            Notre
+            mission est d'aider les individus et les organisations à comprendre les implications de l'IA et à
+            adopter
+            des pratiques responsables pour un avenir meilleur.</p>
+          <p>
+            Nous proposons une gamme de services, y compris des formations, des consultations et des campagnes de
+            sensibilisation, pour aider nos clients à naviguer dans le paysage complexe de l'IA responsable. Nous sommes
+            passionnés par l'idée de créer un impact positif grâce à l'IA et nous nous engageons à promouvoir des
+            pratiques durables et éthiques dans le développement et l'utilisation de cette technologie révolutionnaire.
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="services" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="text-center text-success p-4 rounded mt-3">Nos services</h2>
+
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card mb-4">
+            <img src="img/formation.jpg" class="card-img-top" alt="Service 1">
+            <div class="card-body">
+              <h5 class="card-title">Formation en IA responsable</h5>
+              <p class="card-text">Nous proposons des formations en ligne et en présentiel pour aider les individus et
+                les organisations à comprendre les principes de l'IA responsable et à les appliquer dans leurs projets.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card mb-4">
+            <img src="img/consultant.jpg" class="card-img-top object-fit-cover" style="height: 205px;" alt="Service 2">
+            <div class="card-body">
+              <h5 class="card-title">Consultation en éthique de l'IA</h5>
+              <p class="card-text">Nous offrons des services de consultation pour aider les entreprises à évaluer les
+                implications éthiques de leurs projets d'IA et à développer des stratégies pour les aborder de manière
+                responsable.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card mb-4">
+            <img src="img/sensibilisation.jpg" class="card-img-top" style="height: 205px;" alt="Service 3">
+            <div class="card-body">
+              <h5 class="card-title">Sensibilisation à l'IA durable</h5>
+              <p class="card-text">Nous organisons des campagnes de sensibilisation pour promouvoir l'utilisation
+                durable de l'IA et encourager les pratiques respectueuses de l'environnement dans le développement et
+                l'utilisation de l'IA.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="text-center text-success p-4 rounded mt-5">Contactez-nous</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8 col-12">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nom</label>
+              <input type="text" class="form-control" id="name" placeholder="Votre nom">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Votre email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Votre message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success d-block mx-auto">Envoyer</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container mt-5 bg-light">
+      <div class="row">
+        <div class="col text-center py-3">
+          <p>&copy; 2024 Greent IA. Tous droits réservés.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
 
 
 
